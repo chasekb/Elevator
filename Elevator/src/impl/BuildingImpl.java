@@ -9,10 +9,14 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * The BuildingImpl class implements the data structures and methods of a building in the Elevator system.
+ * BuildingImpl creates the floors of the building, the elevator controller, and creates person objects for the
+ * duration of the simulation.
  *
  * @author Bernard Chase
  * @see interfaces.Building
  * @see factory.BuildingImplFactory
+ * @see domain.StandardBuilding
+ * @see interfaces.ElevatorController
  * Created by kahlil on 2/7/15.
  */
 public final class BuildingImpl implements Building {

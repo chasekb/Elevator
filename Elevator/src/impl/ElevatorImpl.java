@@ -16,7 +16,6 @@ import java.util.concurrent.CountDownLatch;
  * @author Bernard Chase
  * @see interfaces.Elevator
  * @see factory.ElevatorImplFactory
- * Created by kahlil on 2/7/15.
  */
 public class ElevatorImpl implements Elevator {
 

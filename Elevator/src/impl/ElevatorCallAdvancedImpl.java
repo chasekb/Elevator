@@ -8,7 +8,9 @@ import interfaces.Person;
 import java.util.ArrayList;
 
 /**
- * Created by kahlil on 2/26/15.
+ * The ElevatorCallAdvancedImpl implements an alternative elevator assignment algorithm.
+ *
+ * @author Bernard Chase
  */
 public class ElevatorCallAdvancedImpl implements ElevatorCall {
     private ArrayList<Elevator> elevatorList;

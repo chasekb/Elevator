@@ -5,7 +5,6 @@ package interfaces;
  *
  * @author Bernard Chase
  * @see interfaces.Elevator
- * Created by kahlil on 2/8/15.
  */
 public interface Locatable {
 

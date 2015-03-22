@@ -7,7 +7,6 @@ import java.util.concurrent.CopyOnWriteArrayList;
  * The Elevator interface contains the methods of an elevator in the Elevator system.
  *
  * @author Bernard Chase
- * Created by kahlil on 2/7/15.
  */
 public interface Elevator extends Locatable, Movable, Identifiable, Timable, Runnable {
 

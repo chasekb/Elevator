@@ -11,7 +11,6 @@ import java.util.concurrent.TimeUnit;
  * @author Bernard Chase
  * @see interfaces.Timable
  * @see factory.TimableImplFactory
- * Created by kahlil on 2/9/15.
  */
 public class TimableImpl implements Timable {
 

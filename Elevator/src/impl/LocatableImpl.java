@@ -4,11 +4,13 @@ import exception.InvalidDataException;
 import interfaces.Locatable;
 
 /**
- * The LocatableImpl class implements the data structures and methods to locate an Elevator object in the Elevator system.
+ * The LocatableImpl class implements the data structures and methods to locate an object in the Elevator system.
  *
  * @author Bernard Chase
  * @see interfaces.Locatable
  * @see factory.LocatableImplFactory
+ * @see impl.ElevatorImpl
+ * @see impl.PersonImpl
  * Created by kahlil on 2/8/15.
  */
 public class LocatableImpl implements Locatable {

@@ -10,7 +10,10 @@ import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Created by kahlil on 2/18/15.
+ * The PersonImpl class implements the data structures and methods required for a Person object in the Elevator
+ * system.
+ *
+ * @author Bernard Chase
  */
 public class PersonImpl implements Person {
     private int destination;

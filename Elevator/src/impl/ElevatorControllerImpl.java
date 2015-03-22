@@ -12,7 +12,16 @@ import java.util.Collections;
 import java.util.concurrent.CountDownLatch;
 
 /**
- * Created by kahlil on 2/22/15.
+ * The ElevatorControllerImpl implements the data structures and methods of an elevator controller in the Elevator
+ * system. ElevatorControllerImpl creates the elevators, implements a context switcher to determine the elevator to
+ * which a request is assigned, and assigns requests to elevators. ElevatorControllerImpl generates rider experience
+ * statistics upon determining the simulation has terminated.
+ *
+ * @author Bernard Chase
+ * @see interfaces.Elevator
+ * @see domain.ElevatorCallContext
+ * @see impl.ElevatorCallImpl
+ * @see impl.ElevatorCallAdvancedImpl
  */
 public class ElevatorControllerImpl implements ElevatorController{
 

@@ -14,7 +14,6 @@ import java.util.concurrent.CopyOnWriteArrayList;
  * @author Bernard Chase
  * @see interfaces.Floor
  * @see factory.FloorImplFactory
- * Created by kahlil on 2/7/15.
  */
 public class FloorImpl implements Floor {
 

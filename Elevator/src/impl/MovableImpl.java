@@ -4,10 +4,12 @@ import exception.InvalidDataException;
 import interfaces.Movable;
 
 /**
- * The MovableImpl class implements the data structures and methods to move an Elevator object in the Elevator system.
+ * The MovableImpl class implements the data structures and methods to move an object in the Elevator system.
  *
  * @author Bernard Chase
  * @see interfaces.Movable
+ * @see impl.ElevatorImpl
+ * @see impl.PersonImpl
  * @see factory.MovableImplFactory
  * Created by kahlil on 2/8/15.
  */

@@ -6,7 +6,9 @@ import interfaces.*;
 import java.util.ArrayList;
 
 /**
- * Created by kahlil on 2/24/15.
+ * The ElevatorCallImpl implements a basic elevator assignment algorithm.
+ *
+ * @author Bernard Chase
  */
 public class ElevatorCallImpl implements ElevatorCall {
 

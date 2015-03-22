@@ -4,12 +4,13 @@ import exception.InvalidDataException;
 import interfaces.Identifiable;
 
 /**
- * The IdentifiableImpl implements the data structures and methods to identify an Elevator object in the Elevator system.
+ * The IdentifiableImpl implements the data structures and methods to identify an object in the Elevator system.
  *
  * @author Bernard Chase
  * @see interfaces.Identifiable
  * @see factory.IdentifiableImplFactory
- * Created by kahlil on 2/9/15.
+ * @see impl.ElevatorImpl
+ * @see impl.PersonImpl
  */
 public class IdentifiableImpl implements Identifiable {
 

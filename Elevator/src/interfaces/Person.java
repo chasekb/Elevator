@@ -1,7 +1,9 @@
 package interfaces;
 
 /**
- * Created by kahlil on 2/18/15.
+ * The Person interface contains the methods required for a person in the Elevator system.
+ *
+ * @author Bernard Chase
  */
 public interface Person extends Comparable, Identifiable, Locatable, Timable {
     long timeDelta();

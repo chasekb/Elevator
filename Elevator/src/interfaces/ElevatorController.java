@@ -1,7 +1,10 @@
 package interfaces;
 
 /**
- * Created by kahlil on 2/10/15.
+ * The ElevatorController interface contains the methods to control elevators in the Elevator system.
+ *
+ * @author Bernard Chase
+ * @see interfaces.Elevator
  */
 public interface ElevatorController extends Runnable{
     void addFloorRequest(int floorIn, Movable.Direction dirIn);

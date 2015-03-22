@@ -6,7 +6,7 @@ package interfaces;
  * @author Bernard Chase
  * @see interfaces.Elevator
  * @see interfaces.Building
- * Created by kahlil on 2/9/15.
+ * @see interfaces.Person
  */
 public interface Timable {
     long getStart();
