@@ -67,9 +67,9 @@ public class ObservationImpl implements Observation {
         try {
             OracleDataSource ods = new OracleDataSource();
             ods.setDriverType("oracle.jdbc.driver.OracleDriver");
-            ods.setURL("jdbc:oracle:thin:@cdmoracledb.cti.depaul.edu:1521:def");
-            ods.setUser("kchase4");
-            ods.setPassword("cdm1483064");
+            ods.setURL("jdbc:oracle:thin:server:1521:def");
+            ods.setUser("id");
+            ods.setPassword("password");
             ods.setDatabaseName("TEST");
 
             c = ods.getConnection();
