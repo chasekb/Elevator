@@ -1,0 +1,94 @@
+00:00:00.003 Created Building. Building has 21 floors and 3 elevators.
+00:00:00.038 Person P1 created on Floor 3, wants to go UP to 18
+00:00:00.038 Person P1 presses UP button on Floor 3
+00:00:00.039 Elevator 1 going to Floor 3 for UP request [3]
+00:00:01.040 Person P2 created on Floor 2, wants to go UP to 10
+00:00:01.040 Person P2 presses UP button on Floor 2
+00:00:01.040 Elevator 2 going to Floor 2 for UP request [2]
+00:00:02.042 Person P3 created on Floor 14, wants to go UP to 18
+00:00:02.043 Person P3 presses UP button on Floor 14
+00:00:02.043 Elevator 3 going to Floor 14 for UP request [14]
+00:00:03.048 Person P4 created on Floor 14, wants to go UP to 15
+00:00:03.049 Person P4 presses UP button on Floor 14
+00:00:03.049 Elevator 1 going to Floor 14 for UP request [3, 14]
+00:00:04.053 Person P5 created on Floor 12, wants to go DOWN to 10
+00:00:04.054 Person P5 presses DOWN button on Floor 12
+00:00:04.054 Elevator 2 going to Floor 12 for DOWN request [2, 12]
+00:00:05.033 Elevator 3 moving from Floor 1 to Floor 2. Requests: [14]
+00:00:05.033 Elevator 1 moving from Floor 1 to Floor 2. Requests: [3, 14]
+00:00:05.033 Elevator 2 moving from Floor 1 to Floor 2. Requests: [2, 12]
+00:00:05.057 Person P6 created on Floor 9, wants to go UP to 19
+00:00:05.057 Person P6 presses UP button on Floor 9
+00:00:05.057 Elevator 3 going to Floor 9 for UP request [14, 9]
+00:00:05.539 Elevator 1 moving from Floor 2 to Floor 3. Requests: [3, 14]
+00:00:05.539 Elevator 3 moving from Floor 2 to Floor 3. Requests: [14, 9]
+00:00:05.539 Elevator 2 has arrived at Floor 2 for Floor Request Requests: [2, 12]
+00:00:06.042 Elevator 2 Doors Open
+00:00:06.042 Elevator 1 has arrived at Floor 3 for Floor Request Requests: [3, 14]
+00:00:06.042 Elevator 3 moving from Floor 3 to Floor 4. Requests: [14, 9]
+00:00:06.042 Person P2 entered Elevator 2 Riders: [2]
+00:00:06.043 Elevator 2 going to Floor 10 for UP request [12, 10]
+00:00:06.043 Elevator 2 Rider Request made for Floor 10 Requests: [12, 10]
+00:00:06.043 Elevator 2 Doors Close
+00:00:06.043 Elevator 2 moving from Floor 2 to Floor 3. Requests: [10, 12]
+00:00:06.063 Person P7 created on Floor 12, wants to go DOWN to 3
+00:00:06.063 Person P7 presses DOWN button on Floor 12
+00:00:06.546 Elevator 3 moving from Floor 4 to Floor 5. Requests: [14, 9]
+00:00:06.546 Elevator 1 Doors Open
+00:00:06.547 Person P1 entered Elevator 1 Riders: [1]
+00:00:06.547 Elevator 1 going to Floor 18 for UP request [14, 18]
+00:00:06.547 Elevator 1 Rider Request made for Floor 18 Requests: [14, 18]
+00:00:06.547 Elevator 1 Doors Close
+00:00:06.548 Elevator 1 moving from Floor 3 to Floor 4. Requests: [14, 18, 12]
+00:00:06.548 Elevator 1 going to Floor 12 for DOWN request [14, 18, 12]
+00:00:06.548 Elevator 2 moving from Floor 3 to Floor 4. Requests: [10, 12]
+00:00:07.048 Elevator 3 moving from Floor 5 to Floor 6. Requests: [14, 9]
+00:00:07.052 Elevator 2 moving from Floor 4 to Floor 5. Requests: [10, 12]
+00:00:07.052 Elevator 1 moving from Floor 4 to Floor 5. Requests: [14, 18, 12]
+00:00:07.552 Person P8 created on Floor 11, wants to go UP to 19
+00:00:07.552 Elevator 3 moving from Floor 6 to Floor 7. Requests: [14, 9]
+00:00:07.552 Person P8 presses UP button on Floor 11
+00:00:07.553 Elevator 2 going to Floor 11 for UP request [10, 12, 11]
+00:00:07.557 Elevator 2 moving from Floor 5 to Floor 6. Requests: [10, 12, 11]
+00:00:07.557 Elevator 1 moving from Floor 5 to Floor 6. Requests: [14, 18, 12]
+00:00:08.057 Elevator 3 moving from Floor 7 to Floor 8. Requests: [14, 9]
+00:00:08.057 Elevator 2 moving from Floor 6 to Floor 7. Requests: [10, 12, 11]
+00:00:08.058 Elevator 1 moving from Floor 6 to Floor 7. Requests: [14, 18, 12]
+00:00:08.556 Person P9 created on Floor 11, wants to go UP to 19
+00:00:08.557 Person P9 presses UP button on Floor 11
+00:00:08.557 Elevator 3 going to Floor 11 for UP request [14, 9, 11]
+00:00:08.562 Elevator 2 moving from Floor 7 to Floor 8. Requests: [10, 12, 11]
+00:00:08.562 Elevator 1 moving from Floor 7 to Floor 8. Requests: [14, 18, 12]
+00:00:08.562 Elevator 3 moving from Floor 8 to Floor 9. Requests: [14, 9, 11]
+00:00:09.066 Elevator 3 has arrived at Floor 9 for Floor Request Requests: [14, 9, 11]
+00:00:09.066 Elevator 2 moving from Floor 8 to Floor 9. Requests: [10, 12, 11]
+00:00:09.066 Elevator 1 moving from Floor 8 to Floor 9. Requests: [14, 18, 12]
+00:00:09.561 Person P10 created on Floor 12, wants to go DOWN to 6
+00:00:09.561 Person P10 presses DOWN button on Floor 12
+00:00:09.561 Elevator 1 going to Floor 12 for DOWN request [14, 18, 12, 12]
+00:00:09.569 Elevator 3 Doors Open
+00:00:09.569 Elevator 2 moving from Floor 9 to Floor 10. Requests: [10, 12, 11]
+00:00:09.569 Elevator 1 moving from Floor 9 to Floor 10. Requests: [14, 18, 12, 12]
+00:00:09.569 Person P6 entered Elevator 3 Riders: [6]
+00:00:09.569 Elevator 3 going to Floor 19 for UP request [14, 11, 19]
+00:00:09.570 Elevator 3 Rider Request made for Floor 19 Requests: [14, 11, 19]
+00:00:09.570 Elevator 3 Doors Close
+00:00:09.570 Elevator 3 moving from Floor 9 to Floor 10. Requests: [11, 14, 19]
+00:00:10.074 Elevator 2 has arrived at Floor 10 for Rider Request Requests: [10, 12, 11]
+00:00:10.074 Elevator 3 moving from Floor 10 to Floor 11. Requests: [11, 14, 19]
+00:00:10.074 Elevator 1 moving from Floor 10 to Floor 11. Requests: [14, 18, 12, 12]
+00:00:10.565 Person P11 created on Floor 6, wants to go UP to 9
+00:00:10.566 Person P11 presses UP button on Floor 6
+00:00:10.577 Elevator 2 Doors Open
+00:00:10.577 Elevator 1 moving from Floor 11 to Floor 12. Requests: [14, 18, 12, 12]
+00:00:10.577 Elevator 3 has arrived at Floor 11 for Rider Request Requests: [11, 14, 19]
+00:00:10.577 Person P2 entered Floor 10 People: [2]
+00:00:10.577 Person P2 has left Elevator 2 Riders: []
+00:00:10.578 Elevator 2 Doors Close
+00:00:10.578 Elevator 2 going to Floor 6 for UP request [12, 11, 6]
+00:00:10.578 Elevator 2 moving from Floor 10 to Floor 11. Requests: [12, 11, 6]
+00:00:11.081 Elevator 3 Doors Open
+00:00:11.081 Elevator 2 has arrived at Floor 11 for Floor Request Requests: [12, 11, 6]
+00:00:11.081 Elevator 1 has arrived at Floor 12 for Rider Request Requests: [14, 18, 12, 12]
+00:00:11.081 Elevator 3 Doors Close
+00:00:11.081 Elevator 3 has arrived at Floor 11 for Floor Request Requests: [11, 14, 19]
