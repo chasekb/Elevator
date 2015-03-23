@@ -1,21 +1,23 @@
 import factory.ObservationImplFactory;
 import impl.ObservationImpl;
-import interfaces.Observation;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.net.URL;
 import java.net.HttpURLConnection;
+import java.net.URL;
 import java.time.LocalDate;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CopyOnWriteArrayList;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  * Created by kahlil on 3/21/15.
  */
 public class UrlOpener extends Thread {
 
+    private static final Logger log = Logger.getLogger(UrlOpener.class.getName());
     private static ConcurrentHashMap<LocalDate, ObservationImpl> chm;
     private static CopyOnWriteArrayList<LocalDate> keys;
     private static String line;
@@ -32,6 +34,8 @@ public class UrlOpener extends Thread {
 
     public void run() {
         try {
+            log.log(Level.INFO, "Opening HTTP connection to " + url);
+
             urlConnection = (HttpURLConnection) url.openConnection();
             urlConnection.setRequestMethod("GET");
             urlConnection.setReadTimeout(5 * 1000);
@@ -50,7 +54,7 @@ public class UrlOpener extends Thread {
         } catch (IOException ioe) { ioe.printStackTrace(); }
     }
 
-    public static void getKeys() {
+    private static void getKeys() {
         for (LocalDate ld : keys) {
             ObservationImpl o = null;
             System.out.print(ld + " ");
@@ -59,17 +63,15 @@ public class UrlOpener extends Thread {
         }
     }
 
-    public static void getLine(String lineIn) {
+    private static void getLine(String lineIn) {
         String[] lineInSplit = lineIn.split(",");
         if ((lineInSplit.length == 6) && (!lineInSplit[0].matches("values:Date"))) {
-            ObservationImpl o = new ObservationImpl(lineIn);
-            chm.put(o.getLd(), o);
-            keys.add(o.getLd());
+            setObservation(lineIn);
         }
     }
 
-    public void setObservation(String lineIn) {
-        Observation o = ObservationImplFactory.create(lineIn);
+    private static void setObservation(String lineIn) {
+        ObservationImplFactory.create(lineIn);
 
     }
 }
